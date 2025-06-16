@@ -2,7 +2,6 @@ import ButtonLink from '@/components/ButtonLink';
 import { VENDEDORA_JESSICA_LINK } from '@/constants';
 import { useQuery } from '@tanstack/react-query';
 import { Kalam } from 'next/font/google';
-import Image from 'next/image';
 
 const NEXT_PUBLIC_BUCKET_URL = process.env.NEXT_PUBLIC_BUCKET_URL;
 
