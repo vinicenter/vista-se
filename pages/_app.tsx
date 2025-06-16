@@ -21,8 +21,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const runtime = "edge";
-
 export const metadata: Metadata = {
   title: "Vista-se Estilo e Conforto",
   description: "Vista-se Estilo e Conforto - Moda feminina com estilo e conforto",

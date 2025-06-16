@@ -3,6 +3,8 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 const EGESTO_API_URL = process.env.EGESTO_API_URL
 const EGESTO_TENANT = process.env.EGESTO_TENANT
 
+export const runtime = "edge";
+
 export interface ProductSize {
   name: string
 }
