@@ -14,7 +14,7 @@ const kalam = Kalam({
 export default function Home() {
   return (
     <main
-      className={`flex flex-col items-center justify-center gap-12 min-h-screen bg-[#FFE0E1] ${kalam.className}`}
+      className={`flex flex-col items-center justify-center gap-12 min-h-screen ${kalam.className}`}
     >
       <Image src="/short-logo.png" alt="Logo" width={300} height={100} />
 
